@@ -7,7 +7,7 @@
 #include"allocation.h"
 #include"user.h"
 
-#define NAMESIZE 64						//文件名最大字节数
+#define NAMESIZE 64					//文件名最大字节数
 #define PATHSIZE 128					//路径最大字节数
 #define FILESIZE 280					//一个file_结构体的字节数
 #define FILECOUNT 14					//一个目录块最多能存储的file_数量（4096/sizeof(file_)==14）
